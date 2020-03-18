@@ -20,7 +20,7 @@ Our approach is to use light-gated protein-protein interaction systems to contro
 Controlled illumination sources are required to work in conjuntion with the molecular tools used in the Cui Lab. Simple light sources are readily made using electronic prototyping techniques but there is a desire to gain more precise control of the illumination, so we (folks in lab64) have been helping produce the equipment described here.
 
 ### About lab64
-[lab64](https://lab64.stanford.edu) is an electronics and systems makerspace located in the David Packard Electical Engineering Building at Stanford. Occasionally we have the privilege of helping to build equipment to support some of the exciting research projects here on campus. This is one of those projects!
+[lab64](https://lab64.stanford.edu) is an electronics and systems makerspace located in the David Packard Electrical Engineering Building at Stanford. Occasionally we have the privilege of helping to build equipment to support some of the exciting research projects here on campus. This is one of those projects!
 
 #### Questions or comments
 If you have questions about the hardware, firmware, or software described here, please send Steve Clark a note at steven DOT clark AT stanford DOT edu

@@ -15,3 +15,16 @@ Compared with our understanding of the roles various proteins play in a multitud
 
 Our approach is to use light-gated protein-protein interaction systems to control the activation and inactivation of intracellular signaling pathways. This ability to optically control signaling pathways offers unprecedented precision in temporal and spatial dimensions.
 
+### Devices to provide controlled illumination
+
+Controlled illumination sources are required to work in conjuntion with the molecular tools used in the Cui Lab. Simple light sources are readily made using electronic prototyping techniques but there is a desire to gain more precise control of the illumination, so we have been helping produce the equipment described here.
+
+### About lab64
+lab64 is an electronics makerspace located in the David Packard Electical Engineering Building at Stanford. Occasionally we have the privilege of helping build equipment to support some of the exciting research projects here on campus. This is one of those projects!
+
+#### Questions or comments
+If you have questions about the hardware, firmware, or software described here please send a note to steven DOT clark AT stanford DOT edu
+
+If you have questions about the research, molecular tools, etc. please contact Professor Cui by sending a note to bcui AT stanford DOT edu
+
+Thank you for your interest!

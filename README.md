@@ -23,7 +23,7 @@ Controlled illumination sources are required to work in conjuntion with the mole
 lab64 is an electronics and systems makerspace located in the David Packard Electical Engineering Building at Stanford. Occasionally we have the privilege of helping to build equipment to support some of the exciting research projects here on campus. This is one of those projects!
 
 #### Questions or comments
-If you have questions about the hardware, firmware, or software described here please send a note to steven DOT clark AT stanford DOT edu
+If you have questions about the hardware, firmware, or software described here, please send Steve Clark a note at steven DOT clark AT stanford DOT edu
 
 If you have questions about the research, molecular tools, etc. please contact Professor Cui by sending a note to bcui AT stanford DOT edu
 

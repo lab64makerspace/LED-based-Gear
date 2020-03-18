@@ -1,5 +1,5 @@
 # LED-based-Gear
-Equipment to study the optical control of protein function
+*Equipment to help study the optical control of protein function*
 
 This repo contains the material to produce and use the devices used in the [Cui Lab](https://cuilab.stanford.edu) at Stanford for studying the optical control of protein function. You can learn more about their work [here](https://cuilab.stanford.edu/optical-control-protein-function) but briefly-
 

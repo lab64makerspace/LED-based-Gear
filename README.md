@@ -3,7 +3,11 @@ Equipment to study the optical control of protein function
 
 This repo contains the material to produce and use the devices used in the [Cui Lab](https://cuilab.stanford.edu) at Stanford for studying the optical control of protein function. You can learn more about their work [here](https://cuilab.stanford.edu/optical-control-protein-function) but briefly-
 
+### Optical Control of Protein Function
+
+
 <img src="images/lightsignalingpathway.jpg" width="700"/>
+
 
 Cells constantly process environmental cues, such as growth factors, to make decisions on cell fate, e.g. survival, proliferation, differentiation, migration, and apoptosis. To ensure proper conversion of a specific environmental input into a distinct cellular output, the activation of intracellular signaling pathways is tightly regulated in space and time.
 

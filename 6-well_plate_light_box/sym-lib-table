@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 6wp-rescue)(type Legacy)(uri ${KIPRJMOD}/6wp-rescue.lib)(options "")(descr ""))
+)

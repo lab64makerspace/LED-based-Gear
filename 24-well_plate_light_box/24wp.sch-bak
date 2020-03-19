@@ -1,0 +1,2681 @@
+EESchema Schematic File Version 4
+LIBS:12wp-cache
+EELAYER 30 0
+EELAYER END
+$Descr A2 16535 23386 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E160D50
+P 2300 1400
+F 0 "U?" H 2300 1867 50  0000 C CNN
+F 1 "LT3080xDD" H 2300 1776 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 2300 1000 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 580 2170 50  0001 C CNN
+	1    2300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160D56
+P 3000 1650
+F 0 "R?" H 3068 1696 50  0000 L CNN
+F 1 "R_Small_US" H 3068 1605 50  0000 L CNN
+F 2 "" H 3000 1650 50  0001 C CNN
+F 3 "~" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1550 3000 1500
+Wire Wire Line
+	2800 1300 3000 1300
+Connection ~ 3000 1300
+Wire Wire Line
+	2800 1400 3000 1400
+Connection ~ 3000 1400
+Wire Wire Line
+	2800 1500 3000 1500
+Connection ~ 3000 1500
+Wire Wire Line
+	3000 1500 3000 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5E160D70
+P 3000 2000
+F 0 "#PWR?" H 3000 1750 50  0001 C CNN
+F 1 "GND" H 3005 1827 50  0000 C CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1750 3000 2000
+Wire Wire Line
+	1450 1600 1800 1600
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160D97
+P 4300 1550
+F 0 "R?" H 4368 1596 50  0000 L CNN
+F 1 "R_Small_US" H 4368 1505 50  0000 L CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "~" H 4300 1550 50  0001 C CNN
+	1    4300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160D9D
+P 4700 2200
+F 0 "D?" H 4668 2364 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4250 2000 50  0000 L CNN
+F 2 "" V 4550 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4550 2250 50  0001 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1650 4300 1850
+Wire Wire Line
+	4550 1850 4300 1850
+Connection ~ 4300 1850
+Wire Wire Line
+	4150 1850 4300 1850
+Wire Wire Line
+	4150 2300 4150 1850
+Wire Wire Line
+	4300 2300 4150 2300
+Wire Wire Line
+	3600 1850 3750 1850
+Wire Wire Line
+	3600 2300 3600 1850
+Wire Wire Line
+	3750 2300 3600 2300
+Connection ~ 3750 1850
+Wire Wire Line
+	4000 1850 3750 1850
+Wire Wire Line
+	3750 1650 3750 1850
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160DB6
+P 4150 2200
+F 0 "D?" H 4118 2364 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 3700 1800 50  0000 L CNN
+F 2 "" V 4000 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4000 2250 50  0001 C CNN
+	1    4150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160DBC
+P 3750 1550
+F 0 "R?" H 3818 1596 50  0000 L CNN
+F 1 "R_Small_US" H 3818 1505 50  0000 L CNN
+F 2 "" H 3750 1550 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160DC3
+P 4850 1550
+F 0 "R?" H 4918 1596 50  0000 L CNN
+F 1 "R_Small_US" H 4918 1505 50  0000 L CNN
+F 2 "" H 4850 1550 50  0001 C CNN
+F 3 "~" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1650 4850 1850
+Wire Wire Line
+	5100 1850 4850 1850
+Connection ~ 4850 1850
+Wire Wire Line
+	4850 2300 4700 2300
+Wire Wire Line
+	4700 2300 4700 1850
+Wire Wire Line
+	4700 1850 4850 1850
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160DDF
+P 5250 2200
+F 0 "D?" H 5217 2370 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4750 1800 50  0000 L CNN
+F 2 "" V 5100 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5100 2250 50  0001 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1200 4850 1450
+Wire Wire Line
+	4300 1200 4850 1200
+Wire Wire Line
+	4000 2500 4000 2300
+Wire Wire Line
+	4000 2500 4550 2500
+Wire Wire Line
+	4550 2500 4550 2300
+Wire Wire Line
+	4550 2500 5100 2500
+Wire Wire Line
+	5100 2500 5100 2300
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 4550 2850
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E160E15
+P 4450 3050
+F 0 "Q?" H 4656 3096 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 4656 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 2975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 4450 3050 50  0001 L CNN
+	1    4450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E160E1B
+P 4550 3350
+F 0 "#PWR?" H 4550 3100 50  0001 C CNN
+F 1 "GND" H 4555 3177 50  0000 C CNN
+F 2 "" H 4550 3350 50  0001 C CNN
+F 3 "" H 4550 3350 50  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3250 4550 3350
+Text GLabel 1450 3050 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E160D76
+P 1050 1600
+F 0 "U?" H 1050 1111 50  0000 C CNN
+F 1 "AD5683" H 1050 1020 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2350 1250 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 1400 1850 50  0001 C CNN
+	1    1050 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 1200
+Wire Wire Line
+	4300 1200 4300 1450
+Wire Wire Line
+	3000 1400 3000 1300
+Wire Wire Line
+	3750 1200 4300 1200
+Wire Wire Line
+	3750 1200 3750 1450
+Wire Wire Line
+	3000 1300 3000 1200
+Wire Wire Line
+	3000 1200 2800 1200
+Wire Wire Line
+	3000 1200 3750 1200
+Connection ~ 3000 1200
+Connection ~ 3750 1200
+Wire Wire Line
+	4250 3050 1450 3050
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E160B49
+P 7500 1350
+F 0 "U?" H 7500 1817 50  0000 C CNN
+F 1 "LT3080xDD" H 7500 1726 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 7500 950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 5780 2120 50  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160B4F
+P 8200 1600
+F 0 "R?" H 8268 1646 50  0000 L CNN
+F 1 "R_Small_US" H 8268 1555 50  0000 L CNN
+F 2 "" H 8200 1600 50  0001 C CNN
+F 3 "~" H 8200 1600 50  0001 C CNN
+	1    8200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1500 8200 1450
+Wire Wire Line
+	8000 1250 8200 1250
+Connection ~ 8200 1250
+Wire Wire Line
+	8000 1350 8200 1350
+Connection ~ 8200 1350
+Wire Wire Line
+	8000 1450 8200 1450
+Connection ~ 8200 1450
+Wire Wire Line
+	8200 1450 8200 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5E160B5D
+P 8200 1950
+F 0 "#PWR?" H 8200 1700 50  0001 C CNN
+F 1 "GND" H 8205 1777 50  0000 C CNN
+F 2 "" H 8200 1950 50  0001 C CNN
+F 3 "" H 8200 1950 50  0001 C CNN
+	1    8200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1700 8200 1950
+Wire Wire Line
+	6650 1550 7000 1550
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160B65
+P 9500 1500
+F 0 "R?" H 9568 1546 50  0000 L CNN
+F 1 "R_Small_US" H 9568 1455 50  0000 L CNN
+F 2 "" H 9500 1500 50  0001 C CNN
+F 3 "~" H 9500 1500 50  0001 C CNN
+	1    9500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160B6B
+P 9900 2150
+F 0 "D?" H 9868 2314 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9450 1950 50  0000 L CNN
+F 2 "" V 9750 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9750 2200 50  0001 C CNN
+	1    9900 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1600 9500 1800
+Wire Wire Line
+	9750 1800 9500 1800
+Connection ~ 9500 1800
+Wire Wire Line
+	9350 1800 9500 1800
+Wire Wire Line
+	9350 2250 9350 1800
+Wire Wire Line
+	9500 2250 9350 2250
+Wire Wire Line
+	8800 1800 8950 1800
+Wire Wire Line
+	8800 2250 8800 1800
+Wire Wire Line
+	8950 2250 8800 2250
+Connection ~ 8950 1800
+Wire Wire Line
+	9200 1800 8950 1800
+Wire Wire Line
+	8950 1600 8950 1800
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160B7D
+P 9350 2150
+F 0 "D?" H 9318 2314 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 8900 1750 50  0000 L CNN
+F 2 "" V 9200 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9200 2200 50  0001 C CNN
+	1    9350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160B83
+P 8950 1500
+F 0 "R?" H 9018 1546 50  0000 L CNN
+F 1 "R_Small_US" H 9018 1455 50  0000 L CNN
+F 2 "" H 8950 1500 50  0001 C CNN
+F 3 "~" H 8950 1500 50  0001 C CNN
+	1    8950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E160B89
+P 10050 1500
+F 0 "R?" H 10118 1546 50  0000 L CNN
+F 1 "R_Small_US" H 10118 1455 50  0000 L CNN
+F 2 "" H 10050 1500 50  0001 C CNN
+F 3 "~" H 10050 1500 50  0001 C CNN
+	1    10050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1600 10050 1800
+Wire Wire Line
+	10300 1800 10050 1800
+Connection ~ 10050 1800
+Wire Wire Line
+	10050 2250 9900 2250
+Wire Wire Line
+	9900 2250 9900 1800
+Wire Wire Line
+	9900 1800 10050 1800
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E160B95
+P 10450 2150
+F 0 "D?" H 10417 2320 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9950 1750 50  0000 L CNN
+F 2 "" V 10300 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 10300 2200 50  0001 C CNN
+	1    10450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1150 10050 1400
+Wire Wire Line
+	9500 1150 10050 1150
+Wire Wire Line
+	9200 2450 9200 2250
+Wire Wire Line
+	9200 2450 9750 2450
+Wire Wire Line
+	9750 2450 9750 2250
+Wire Wire Line
+	9750 2450 10300 2450
+Wire Wire Line
+	10300 2450 10300 2250
+Connection ~ 9750 2450
+Wire Wire Line
+	9750 2450 9750 2800
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E160BA4
+P 9650 3000
+F 0 "Q?" H 9856 3046 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 9856 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9850 2925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 9650 3000 50  0001 L CNN
+	1    9650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E160BAA
+P 9750 3300
+F 0 "#PWR?" H 9750 3050 50  0001 C CNN
+F 1 "GND" H 9755 3127 50  0000 C CNN
+F 2 "" H 9750 3300 50  0001 C CNN
+F 3 "" H 9750 3300 50  0001 C CNN
+	1    9750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3200 9750 3300
+Text GLabel 6650 3000 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E160BB2
+P 6250 1550
+F 0 "U?" H 6250 1061 50  0000 C CNN
+F 1 "AD5683" H 6250 970 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 7550 1200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 6600 1800 50  0001 C CNN
+	1    6250 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9500 1150
+Wire Wire Line
+	9500 1150 9500 1400
+Wire Wire Line
+	8200 1350 8200 1250
+Wire Wire Line
+	8950 1150 9500 1150
+Wire Wire Line
+	8950 1150 8950 1400
+Wire Wire Line
+	8200 1250 8200 1150
+Wire Wire Line
+	8200 1150 8000 1150
+Wire Wire Line
+	8200 1150 8950 1150
+Connection ~ 8200 1150
+Connection ~ 8950 1150
+Wire Wire Line
+	9450 3000 6650 3000
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E169268
+P 12450 1350
+F 0 "U?" H 12450 1817 50  0000 C CNN
+F 1 "LT3080xDD" H 12450 1726 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 12450 950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 10730 2120 50  0001 C CNN
+	1    12450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E16926E
+P 13150 1600
+F 0 "R?" H 13218 1646 50  0000 L CNN
+F 1 "R_Small_US" H 13218 1555 50  0000 L CNN
+F 2 "" H 13150 1600 50  0001 C CNN
+F 3 "~" H 13150 1600 50  0001 C CNN
+	1    13150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 1500 13150 1450
+Wire Wire Line
+	12950 1250 13150 1250
+Connection ~ 13150 1250
+Wire Wire Line
+	12950 1350 13150 1350
+Connection ~ 13150 1350
+Wire Wire Line
+	12950 1450 13150 1450
+Connection ~ 13150 1450
+Wire Wire Line
+	13150 1450 13150 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5E16927C
+P 13150 1950
+F 0 "#PWR?" H 13150 1700 50  0001 C CNN
+F 1 "GND" H 13155 1777 50  0000 C CNN
+F 2 "" H 13150 1950 50  0001 C CNN
+F 3 "" H 13150 1950 50  0001 C CNN
+	1    13150 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 1700 13150 1950
+Wire Wire Line
+	11600 1550 11950 1550
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E169284
+P 14450 1500
+F 0 "R?" H 14518 1546 50  0000 L CNN
+F 1 "R_Small_US" H 14518 1455 50  0000 L CNN
+F 2 "" H 14450 1500 50  0001 C CNN
+F 3 "~" H 14450 1500 50  0001 C CNN
+	1    14450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E16928A
+P 14850 2150
+F 0 "D?" H 14818 2314 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14400 1950 50  0000 L CNN
+F 2 "" V 14700 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14700 2200 50  0001 C CNN
+	1    14850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 1600 14450 1800
+Wire Wire Line
+	14700 1800 14450 1800
+Connection ~ 14450 1800
+Wire Wire Line
+	14300 1800 14450 1800
+Wire Wire Line
+	14300 2250 14300 1800
+Wire Wire Line
+	14450 2250 14300 2250
+Wire Wire Line
+	13750 1800 13900 1800
+Wire Wire Line
+	13750 2250 13750 1800
+Wire Wire Line
+	13900 2250 13750 2250
+Connection ~ 13900 1800
+Wire Wire Line
+	14150 1800 13900 1800
+Wire Wire Line
+	13900 1600 13900 1800
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E16929C
+P 14300 2150
+F 0 "D?" H 14268 2314 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 13850 1750 50  0000 L CNN
+F 2 "" V 14150 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14150 2200 50  0001 C CNN
+	1    14300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1692A2
+P 13900 1500
+F 0 "R?" H 13968 1546 50  0000 L CNN
+F 1 "R_Small_US" H 13968 1455 50  0000 L CNN
+F 2 "" H 13900 1500 50  0001 C CNN
+F 3 "~" H 13900 1500 50  0001 C CNN
+	1    13900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1692A8
+P 15000 1500
+F 0 "R?" H 15068 1546 50  0000 L CNN
+F 1 "R_Small_US" H 15068 1455 50  0000 L CNN
+F 2 "" H 15000 1500 50  0001 C CNN
+F 3 "~" H 15000 1500 50  0001 C CNN
+	1    15000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 1600 15000 1800
+Wire Wire Line
+	15250 1800 15000 1800
+Connection ~ 15000 1800
+Wire Wire Line
+	15000 2250 14850 2250
+Wire Wire Line
+	14850 2250 14850 1800
+Wire Wire Line
+	14850 1800 15000 1800
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1692B4
+P 15400 2150
+F 0 "D?" H 15367 2320 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14900 1750 50  0000 L CNN
+F 2 "" V 15250 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 15250 2200 50  0001 C CNN
+	1    15400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 1150 15000 1400
+Wire Wire Line
+	14450 1150 15000 1150
+Wire Wire Line
+	14150 2450 14150 2250
+Wire Wire Line
+	14150 2450 14700 2450
+Wire Wire Line
+	14700 2450 14700 2250
+Wire Wire Line
+	14700 2450 15250 2450
+Wire Wire Line
+	15250 2450 15250 2250
+Connection ~ 14700 2450
+Wire Wire Line
+	14700 2450 14700 2800
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E1692C3
+P 14600 3000
+F 0 "Q?" H 14806 3046 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 14806 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 2925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 14600 3000 50  0001 L CNN
+	1    14600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1692C9
+P 14700 3300
+F 0 "#PWR?" H 14700 3050 50  0001 C CNN
+F 1 "GND" H 14705 3127 50  0000 C CNN
+F 2 "" H 14700 3300 50  0001 C CNN
+F 3 "" H 14700 3300 50  0001 C CNN
+	1    14700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 3200 14700 3300
+Text GLabel 11600 3000 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E1692D1
+P 11200 1550
+F 0 "U?" H 11200 1061 50  0000 C CNN
+F 1 "AD5683" H 11200 970 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 12500 1200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 11550 1800 50  0001 C CNN
+	1    11200 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 14450 1150
+Wire Wire Line
+	14450 1150 14450 1400
+Wire Wire Line
+	13150 1350 13150 1250
+Wire Wire Line
+	13900 1150 14450 1150
+Wire Wire Line
+	13900 1150 13900 1400
+Wire Wire Line
+	13150 1250 13150 1150
+Wire Wire Line
+	13150 1150 12950 1150
+Wire Wire Line
+	13150 1150 13900 1150
+Connection ~ 13150 1150
+Connection ~ 13900 1150
+Wire Wire Line
+	14400 3000 11600 3000
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E16FF10
+P 2350 4750
+F 0 "U?" H 2350 5217 50  0000 C CNN
+F 1 "LT3080xDD" H 2350 5126 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 2350 4350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 630 5520 50  0001 C CNN
+	1    2350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E16FF16
+P 3050 5000
+F 0 "R?" H 3118 5046 50  0000 L CNN
+F 1 "R_Small_US" H 3118 4955 50  0000 L CNN
+F 2 "" H 3050 5000 50  0001 C CNN
+F 3 "~" H 3050 5000 50  0001 C CNN
+	1    3050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4900 3050 4850
+Wire Wire Line
+	2850 4650 3050 4650
+Connection ~ 3050 4650
+Wire Wire Line
+	2850 4750 3050 4750
+Connection ~ 3050 4750
+Wire Wire Line
+	2850 4850 3050 4850
+Connection ~ 3050 4850
+Wire Wire Line
+	3050 4850 3050 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5E16FF24
+P 3050 5350
+F 0 "#PWR?" H 3050 5100 50  0001 C CNN
+F 1 "GND" H 3055 5177 50  0000 C CNN
+F 2 "" H 3050 5350 50  0001 C CNN
+F 3 "" H 3050 5350 50  0001 C CNN
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5100 3050 5350
+Wire Wire Line
+	1500 4950 1850 4950
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E16FF2C
+P 4350 4900
+F 0 "R?" H 4418 4946 50  0000 L CNN
+F 1 "R_Small_US" H 4418 4855 50  0000 L CNN
+F 2 "" H 4350 4900 50  0001 C CNN
+F 3 "~" H 4350 4900 50  0001 C CNN
+	1    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E16FF32
+P 4750 5550
+F 0 "D?" H 4718 5714 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4300 5350 50  0000 L CNN
+F 2 "" V 4600 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4600 5600 50  0001 C CNN
+	1    4750 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5000 4350 5200
+Wire Wire Line
+	4600 5200 4350 5200
+Connection ~ 4350 5200
+Wire Wire Line
+	4200 5200 4350 5200
+Wire Wire Line
+	4200 5650 4200 5200
+Wire Wire Line
+	4350 5650 4200 5650
+Wire Wire Line
+	3650 5200 3800 5200
+Wire Wire Line
+	3650 5650 3650 5200
+Wire Wire Line
+	3800 5650 3650 5650
+Connection ~ 3800 5200
+Wire Wire Line
+	4050 5200 3800 5200
+Wire Wire Line
+	3800 5000 3800 5200
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E16FF44
+P 4200 5550
+F 0 "D?" H 4168 5714 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 3750 5150 50  0000 L CNN
+F 2 "" V 4050 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4050 5600 50  0001 C CNN
+	1    4200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E16FF4A
+P 3800 4900
+F 0 "R?" H 3868 4946 50  0000 L CNN
+F 1 "R_Small_US" H 3868 4855 50  0000 L CNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "~" H 3800 4900 50  0001 C CNN
+	1    3800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E16FF50
+P 4900 4900
+F 0 "R?" H 4968 4946 50  0000 L CNN
+F 1 "R_Small_US" H 4968 4855 50  0000 L CNN
+F 2 "" H 4900 4900 50  0001 C CNN
+F 3 "~" H 4900 4900 50  0001 C CNN
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5000 4900 5200
+Wire Wire Line
+	5150 5200 4900 5200
+Connection ~ 4900 5200
+Wire Wire Line
+	4900 5650 4750 5650
+Wire Wire Line
+	4750 5650 4750 5200
+Wire Wire Line
+	4750 5200 4900 5200
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E16FF5C
+P 5300 5550
+F 0 "D?" H 5267 5720 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4800 5150 50  0000 L CNN
+F 2 "" V 5150 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5150 5600 50  0001 C CNN
+	1    5300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4550 4900 4800
+Wire Wire Line
+	4350 4550 4900 4550
+Wire Wire Line
+	4050 5850 4050 5650
+Wire Wire Line
+	4050 5850 4600 5850
+Wire Wire Line
+	4600 5850 4600 5650
+Wire Wire Line
+	4600 5850 5150 5850
+Wire Wire Line
+	5150 5850 5150 5650
+Connection ~ 4600 5850
+Wire Wire Line
+	4600 5850 4600 6200
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E16FF6B
+P 4500 6400
+F 0 "Q?" H 4706 6446 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 4706 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 6325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 4500 6400 50  0001 L CNN
+	1    4500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E16FF71
+P 4600 6700
+F 0 "#PWR?" H 4600 6450 50  0001 C CNN
+F 1 "GND" H 4605 6527 50  0000 C CNN
+F 2 "" H 4600 6700 50  0001 C CNN
+F 3 "" H 4600 6700 50  0001 C CNN
+	1    4600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6600 4600 6700
+Text GLabel 1500 6400 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E16FF79
+P 1100 4950
+F 0 "U?" H 1100 4461 50  0000 C CNN
+F 1 "AD5683" H 1100 4370 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2400 4600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 1450 5200 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 4550
+Wire Wire Line
+	4350 4550 4350 4800
+Wire Wire Line
+	3050 4750 3050 4650
+Wire Wire Line
+	3800 4550 4350 4550
+Wire Wire Line
+	3800 4550 3800 4800
+Wire Wire Line
+	3050 4650 3050 4550
+Wire Wire Line
+	3050 4550 2850 4550
+Wire Wire Line
+	3050 4550 3800 4550
+Connection ~ 3050 4550
+Connection ~ 3800 4550
+Wire Wire Line
+	4300 6400 1500 6400
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E17C243
+P 7550 4800
+F 0 "U?" H 7550 5267 50  0000 C CNN
+F 1 "LT3080xDD" H 7550 5176 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 7550 4400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 5830 5570 50  0001 C CNN
+	1    7550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E17C249
+P 8250 5050
+F 0 "R?" H 8318 5096 50  0000 L CNN
+F 1 "R_Small_US" H 8318 5005 50  0000 L CNN
+F 2 "" H 8250 5050 50  0001 C CNN
+F 3 "~" H 8250 5050 50  0001 C CNN
+	1    8250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4950 8250 4900
+Wire Wire Line
+	8050 4700 8250 4700
+Connection ~ 8250 4700
+Wire Wire Line
+	8050 4800 8250 4800
+Connection ~ 8250 4800
+Wire Wire Line
+	8050 4900 8250 4900
+Connection ~ 8250 4900
+Wire Wire Line
+	8250 4900 8250 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5E17C257
+P 8250 5400
+F 0 "#PWR?" H 8250 5150 50  0001 C CNN
+F 1 "GND" H 8255 5227 50  0000 C CNN
+F 2 "" H 8250 5400 50  0001 C CNN
+F 3 "" H 8250 5400 50  0001 C CNN
+	1    8250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5150 8250 5400
+Wire Wire Line
+	6700 5000 7050 5000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E17C25F
+P 9550 4950
+F 0 "R?" H 9618 4996 50  0000 L CNN
+F 1 "R_Small_US" H 9618 4905 50  0000 L CNN
+F 2 "" H 9550 4950 50  0001 C CNN
+F 3 "~" H 9550 4950 50  0001 C CNN
+	1    9550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E17C265
+P 9950 5600
+F 0 "D?" H 9918 5764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9500 5400 50  0000 L CNN
+F 2 "" V 9800 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9800 5650 50  0001 C CNN
+	1    9950 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5050 9550 5250
+Wire Wire Line
+	9800 5250 9550 5250
+Connection ~ 9550 5250
+Wire Wire Line
+	9400 5250 9550 5250
+Wire Wire Line
+	9400 5700 9400 5250
+Wire Wire Line
+	9550 5700 9400 5700
+Wire Wire Line
+	8850 5250 9000 5250
+Wire Wire Line
+	8850 5700 8850 5250
+Wire Wire Line
+	9000 5700 8850 5700
+Connection ~ 9000 5250
+Wire Wire Line
+	9250 5250 9000 5250
+Wire Wire Line
+	9000 5050 9000 5250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E17C277
+P 9400 5600
+F 0 "D?" H 9368 5764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 8950 5200 50  0000 L CNN
+F 2 "" V 9250 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9250 5650 50  0001 C CNN
+	1    9400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E17C27D
+P 9000 4950
+F 0 "R?" H 9068 4996 50  0000 L CNN
+F 1 "R_Small_US" H 9068 4905 50  0000 L CNN
+F 2 "" H 9000 4950 50  0001 C CNN
+F 3 "~" H 9000 4950 50  0001 C CNN
+	1    9000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E17C283
+P 10100 4950
+F 0 "R?" H 10168 4996 50  0000 L CNN
+F 1 "R_Small_US" H 10168 4905 50  0000 L CNN
+F 2 "" H 10100 4950 50  0001 C CNN
+F 3 "~" H 10100 4950 50  0001 C CNN
+	1    10100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5050 10100 5250
+Wire Wire Line
+	10350 5250 10100 5250
+Connection ~ 10100 5250
+Wire Wire Line
+	10100 5700 9950 5700
+Wire Wire Line
+	9950 5700 9950 5250
+Wire Wire Line
+	9950 5250 10100 5250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E17C28F
+P 10500 5600
+F 0 "D?" H 10467 5770 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 10000 5200 50  0000 L CNN
+F 2 "" V 10350 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 10350 5650 50  0001 C CNN
+	1    10500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4600 10100 4850
+Wire Wire Line
+	9550 4600 10100 4600
+Wire Wire Line
+	9250 5900 9250 5700
+Wire Wire Line
+	9250 5900 9800 5900
+Wire Wire Line
+	9800 5900 9800 5700
+Wire Wire Line
+	9800 5900 10350 5900
+Wire Wire Line
+	10350 5900 10350 5700
+Connection ~ 9800 5900
+Wire Wire Line
+	9800 5900 9800 6250
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E17C29E
+P 9700 6450
+F 0 "Q?" H 9906 6496 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 9906 6405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 6375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 9700 6450 50  0001 L CNN
+	1    9700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E17C2A4
+P 9800 6750
+F 0 "#PWR?" H 9800 6500 50  0001 C CNN
+F 1 "GND" H 9805 6577 50  0000 C CNN
+F 2 "" H 9800 6750 50  0001 C CNN
+F 3 "" H 9800 6750 50  0001 C CNN
+	1    9800 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6650 9800 6750
+Text GLabel 6700 6450 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E17C2AC
+P 6300 5000
+F 0 "U?" H 6300 4511 50  0000 C CNN
+F 1 "AD5683" H 6300 4420 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 7600 4650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 6650 5250 50  0001 C CNN
+	1    6300 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 4600
+Wire Wire Line
+	9550 4600 9550 4850
+Wire Wire Line
+	8250 4800 8250 4700
+Wire Wire Line
+	9000 4600 9550 4600
+Wire Wire Line
+	9000 4600 9000 4850
+Wire Wire Line
+	8250 4700 8250 4600
+Wire Wire Line
+	8250 4600 8050 4600
+Wire Wire Line
+	8250 4600 9000 4600
+Connection ~ 8250 4600
+Connection ~ 9000 4600
+Wire Wire Line
+	9500 6450 6700 6450
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E18BEED
+P 12450 4800
+F 0 "U?" H 12450 5267 50  0000 C CNN
+F 1 "LT3080xDD" H 12450 5176 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 12450 4400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 10730 5570 50  0001 C CNN
+	1    12450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E18BEF3
+P 13150 5050
+F 0 "R?" H 13218 5096 50  0000 L CNN
+F 1 "R_Small_US" H 13218 5005 50  0000 L CNN
+F 2 "" H 13150 5050 50  0001 C CNN
+F 3 "~" H 13150 5050 50  0001 C CNN
+	1    13150 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4950 13150 4900
+Wire Wire Line
+	12950 4700 13150 4700
+Connection ~ 13150 4700
+Wire Wire Line
+	12950 4800 13150 4800
+Connection ~ 13150 4800
+Wire Wire Line
+	12950 4900 13150 4900
+Connection ~ 13150 4900
+Wire Wire Line
+	13150 4900 13150 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5E18BF01
+P 13150 5400
+F 0 "#PWR?" H 13150 5150 50  0001 C CNN
+F 1 "GND" H 13155 5227 50  0000 C CNN
+F 2 "" H 13150 5400 50  0001 C CNN
+F 3 "" H 13150 5400 50  0001 C CNN
+	1    13150 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 5150 13150 5400
+Wire Wire Line
+	11600 5000 11950 5000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E18BF09
+P 14450 4950
+F 0 "R?" H 14518 4996 50  0000 L CNN
+F 1 "R_Small_US" H 14518 4905 50  0000 L CNN
+F 2 "" H 14450 4950 50  0001 C CNN
+F 3 "~" H 14450 4950 50  0001 C CNN
+	1    14450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E18BF0F
+P 14850 5600
+F 0 "D?" H 14818 5764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14400 5400 50  0000 L CNN
+F 2 "" V 14700 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14700 5650 50  0001 C CNN
+	1    14850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 5050 14450 5250
+Wire Wire Line
+	14700 5250 14450 5250
+Connection ~ 14450 5250
+Wire Wire Line
+	14300 5250 14450 5250
+Wire Wire Line
+	14300 5700 14300 5250
+Wire Wire Line
+	14450 5700 14300 5700
+Wire Wire Line
+	13750 5250 13900 5250
+Wire Wire Line
+	13750 5700 13750 5250
+Wire Wire Line
+	13900 5700 13750 5700
+Connection ~ 13900 5250
+Wire Wire Line
+	14150 5250 13900 5250
+Wire Wire Line
+	13900 5050 13900 5250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E18BF21
+P 14300 5600
+F 0 "D?" H 14268 5764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 13850 5200 50  0000 L CNN
+F 2 "" V 14150 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14150 5650 50  0001 C CNN
+	1    14300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E18BF27
+P 13900 4950
+F 0 "R?" H 13968 4996 50  0000 L CNN
+F 1 "R_Small_US" H 13968 4905 50  0000 L CNN
+F 2 "" H 13900 4950 50  0001 C CNN
+F 3 "~" H 13900 4950 50  0001 C CNN
+	1    13900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E18BF2D
+P 15000 4950
+F 0 "R?" H 15068 4996 50  0000 L CNN
+F 1 "R_Small_US" H 15068 4905 50  0000 L CNN
+F 2 "" H 15000 4950 50  0001 C CNN
+F 3 "~" H 15000 4950 50  0001 C CNN
+	1    15000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 5050 15000 5250
+Wire Wire Line
+	15250 5250 15000 5250
+Connection ~ 15000 5250
+Wire Wire Line
+	15000 5700 14850 5700
+Wire Wire Line
+	14850 5700 14850 5250
+Wire Wire Line
+	14850 5250 15000 5250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E18BF39
+P 15400 5600
+F 0 "D?" H 15367 5770 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14900 5200 50  0000 L CNN
+F 2 "" V 15250 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 15250 5650 50  0001 C CNN
+	1    15400 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 4600 15000 4850
+Wire Wire Line
+	14450 4600 15000 4600
+Wire Wire Line
+	14150 5900 14150 5700
+Wire Wire Line
+	14150 5900 14700 5900
+Wire Wire Line
+	14700 5900 14700 5700
+Wire Wire Line
+	14700 5900 15250 5900
+Wire Wire Line
+	15250 5900 15250 5700
+Connection ~ 14700 5900
+Wire Wire Line
+	14700 5900 14700 6250
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E18BF48
+P 14600 6450
+F 0 "Q?" H 14806 6496 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 14806 6405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 6375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 14600 6450 50  0001 L CNN
+	1    14600 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E18BF4E
+P 14700 6750
+F 0 "#PWR?" H 14700 6500 50  0001 C CNN
+F 1 "GND" H 14705 6577 50  0000 C CNN
+F 2 "" H 14700 6750 50  0001 C CNN
+F 3 "" H 14700 6750 50  0001 C CNN
+	1    14700 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6650 14700 6750
+Text GLabel 11600 6450 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E18BF56
+P 11200 5000
+F 0 "U?" H 11200 4511 50  0000 C CNN
+F 1 "AD5683" H 11200 4420 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 12500 4650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 11550 5250 50  0001 C CNN
+	1    11200 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 14450 4600
+Wire Wire Line
+	14450 4600 14450 4850
+Wire Wire Line
+	13150 4800 13150 4700
+Wire Wire Line
+	13900 4600 14450 4600
+Wire Wire Line
+	13900 4600 13900 4850
+Wire Wire Line
+	13150 4700 13150 4600
+Wire Wire Line
+	13150 4600 12950 4600
+Wire Wire Line
+	13150 4600 13900 4600
+Connection ~ 13150 4600
+Connection ~ 13900 4600
+Wire Wire Line
+	14400 6450 11600 6450
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E1A08FD
+P 2450 7800
+F 0 "U?" H 2450 8267 50  0000 C CNN
+F 1 "LT3080xDD" H 2450 8176 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 2450 7400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 730 8570 50  0001 C CNN
+	1    2450 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1A0903
+P 3150 8050
+F 0 "R?" H 3218 8096 50  0000 L CNN
+F 1 "R_Small_US" H 3218 8005 50  0000 L CNN
+F 2 "" H 3150 8050 50  0001 C CNN
+F 3 "~" H 3150 8050 50  0001 C CNN
+	1    3150 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7950 3150 7900
+Wire Wire Line
+	2950 7700 3150 7700
+Connection ~ 3150 7700
+Wire Wire Line
+	2950 7800 3150 7800
+Connection ~ 3150 7800
+Wire Wire Line
+	2950 7900 3150 7900
+Connection ~ 3150 7900
+Wire Wire Line
+	3150 7900 3150 7800
+$Comp
+L power:GND #PWR?
+U 1 1 5E1A0911
+P 3150 8400
+F 0 "#PWR?" H 3150 8150 50  0001 C CNN
+F 1 "GND" H 3155 8227 50  0000 C CNN
+F 2 "" H 3150 8400 50  0001 C CNN
+F 3 "" H 3150 8400 50  0001 C CNN
+	1    3150 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 8150 3150 8400
+Wire Wire Line
+	1600 8000 1950 8000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1A0919
+P 4450 7950
+F 0 "R?" H 4518 7996 50  0000 L CNN
+F 1 "R_Small_US" H 4518 7905 50  0000 L CNN
+F 2 "" H 4450 7950 50  0001 C CNN
+F 3 "~" H 4450 7950 50  0001 C CNN
+	1    4450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1A091F
+P 4850 8600
+F 0 "D?" H 4818 8764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4400 8400 50  0000 L CNN
+F 2 "" V 4700 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4700 8650 50  0001 C CNN
+	1    4850 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 8050 4450 8250
+Wire Wire Line
+	4700 8250 4450 8250
+Connection ~ 4450 8250
+Wire Wire Line
+	4300 8250 4450 8250
+Wire Wire Line
+	4300 8700 4300 8250
+Wire Wire Line
+	4450 8700 4300 8700
+Wire Wire Line
+	3750 8250 3900 8250
+Wire Wire Line
+	3750 8700 3750 8250
+Wire Wire Line
+	3900 8700 3750 8700
+Connection ~ 3900 8250
+Wire Wire Line
+	4150 8250 3900 8250
+Wire Wire Line
+	3900 8050 3900 8250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1A0931
+P 4300 8600
+F 0 "D?" H 4268 8764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 3850 8200 50  0000 L CNN
+F 2 "" V 4150 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4150 8650 50  0001 C CNN
+	1    4300 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1A0937
+P 3900 7950
+F 0 "R?" H 3968 7996 50  0000 L CNN
+F 1 "R_Small_US" H 3968 7905 50  0000 L CNN
+F 2 "" H 3900 7950 50  0001 C CNN
+F 3 "~" H 3900 7950 50  0001 C CNN
+	1    3900 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1A093D
+P 5000 7950
+F 0 "R?" H 5068 7996 50  0000 L CNN
+F 1 "R_Small_US" H 5068 7905 50  0000 L CNN
+F 2 "" H 5000 7950 50  0001 C CNN
+F 3 "~" H 5000 7950 50  0001 C CNN
+	1    5000 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 8050 5000 8250
+Wire Wire Line
+	5250 8250 5000 8250
+Connection ~ 5000 8250
+Wire Wire Line
+	5000 8700 4850 8700
+Wire Wire Line
+	4850 8700 4850 8250
+Wire Wire Line
+	4850 8250 5000 8250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1A0949
+P 5400 8600
+F 0 "D?" H 5367 8770 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4900 8200 50  0000 L CNN
+F 2 "" V 5250 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5250 8650 50  0001 C CNN
+	1    5400 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7600 5000 7850
+Wire Wire Line
+	4450 7600 5000 7600
+Wire Wire Line
+	4150 8900 4150 8700
+Wire Wire Line
+	4150 8900 4700 8900
+Wire Wire Line
+	4700 8900 4700 8700
+Wire Wire Line
+	4700 8900 5250 8900
+Wire Wire Line
+	5250 8900 5250 8700
+Connection ~ 4700 8900
+Wire Wire Line
+	4700 8900 4700 9250
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E1A0958
+P 4600 9450
+F 0 "Q?" H 4806 9496 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 4806 9405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 9375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 4600 9450 50  0001 L CNN
+	1    4600 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1A095E
+P 4700 9750
+F 0 "#PWR?" H 4700 9500 50  0001 C CNN
+F 1 "GND" H 4705 9577 50  0000 C CNN
+F 2 "" H 4700 9750 50  0001 C CNN
+F 3 "" H 4700 9750 50  0001 C CNN
+	1    4700 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 9650 4700 9750
+Text GLabel 1600 9450 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E1A0966
+P 1200 8000
+F 0 "U?" H 1200 7511 50  0000 C CNN
+F 1 "AD5683" H 1200 7420 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2500 7650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 1550 8250 50  0001 C CNN
+	1    1200 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 7600
+Wire Wire Line
+	4450 7600 4450 7850
+Wire Wire Line
+	3150 7800 3150 7700
+Wire Wire Line
+	3900 7600 4450 7600
+Wire Wire Line
+	3900 7600 3900 7850
+Wire Wire Line
+	3150 7700 3150 7600
+Wire Wire Line
+	3150 7600 2950 7600
+Wire Wire Line
+	3150 7600 3900 7600
+Connection ~ 3150 7600
+Connection ~ 3900 7600
+Wire Wire Line
+	4400 9450 1600 9450
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E1B7EDE
+P 7450 7800
+F 0 "U?" H 7450 8267 50  0000 C CNN
+F 1 "LT3080xDD" H 7450 8176 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 7450 7400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 5730 8570 50  0001 C CNN
+	1    7450 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1B7EE4
+P 8150 8050
+F 0 "R?" H 8218 8096 50  0000 L CNN
+F 1 "R_Small_US" H 8218 8005 50  0000 L CNN
+F 2 "" H 8150 8050 50  0001 C CNN
+F 3 "~" H 8150 8050 50  0001 C CNN
+	1    8150 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 7950 8150 7900
+Wire Wire Line
+	7950 7700 8150 7700
+Connection ~ 8150 7700
+Wire Wire Line
+	7950 7800 8150 7800
+Connection ~ 8150 7800
+Wire Wire Line
+	7950 7900 8150 7900
+Connection ~ 8150 7900
+Wire Wire Line
+	8150 7900 8150 7800
+$Comp
+L power:GND #PWR?
+U 1 1 5E1B7EF2
+P 8150 8400
+F 0 "#PWR?" H 8150 8150 50  0001 C CNN
+F 1 "GND" H 8155 8227 50  0000 C CNN
+F 2 "" H 8150 8400 50  0001 C CNN
+F 3 "" H 8150 8400 50  0001 C CNN
+	1    8150 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 8150 8150 8400
+Wire Wire Line
+	6600 8000 6950 8000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1B7EFA
+P 9450 7950
+F 0 "R?" H 9518 7996 50  0000 L CNN
+F 1 "R_Small_US" H 9518 7905 50  0000 L CNN
+F 2 "" H 9450 7950 50  0001 C CNN
+F 3 "~" H 9450 7950 50  0001 C CNN
+	1    9450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1B7F00
+P 9850 8600
+F 0 "D?" H 9818 8764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9400 8400 50  0000 L CNN
+F 2 "" V 9700 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9700 8650 50  0001 C CNN
+	1    9850 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 8050 9450 8250
+Wire Wire Line
+	9700 8250 9450 8250
+Connection ~ 9450 8250
+Wire Wire Line
+	9300 8250 9450 8250
+Wire Wire Line
+	9300 8700 9300 8250
+Wire Wire Line
+	9450 8700 9300 8700
+Wire Wire Line
+	8750 8250 8900 8250
+Wire Wire Line
+	8750 8700 8750 8250
+Wire Wire Line
+	8900 8700 8750 8700
+Connection ~ 8900 8250
+Wire Wire Line
+	9150 8250 8900 8250
+Wire Wire Line
+	8900 8050 8900 8250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1B7F12
+P 9300 8600
+F 0 "D?" H 9268 8764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 8850 8200 50  0000 L CNN
+F 2 "" V 9150 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9150 8650 50  0001 C CNN
+	1    9300 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1B7F18
+P 8900 7950
+F 0 "R?" H 8968 7996 50  0000 L CNN
+F 1 "R_Small_US" H 8968 7905 50  0000 L CNN
+F 2 "" H 8900 7950 50  0001 C CNN
+F 3 "~" H 8900 7950 50  0001 C CNN
+	1    8900 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1B7F1E
+P 10000 7950
+F 0 "R?" H 10068 7996 50  0000 L CNN
+F 1 "R_Small_US" H 10068 7905 50  0000 L CNN
+F 2 "" H 10000 7950 50  0001 C CNN
+F 3 "~" H 10000 7950 50  0001 C CNN
+	1    10000 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 8050 10000 8250
+Wire Wire Line
+	10250 8250 10000 8250
+Connection ~ 10000 8250
+Wire Wire Line
+	10000 8700 9850 8700
+Wire Wire Line
+	9850 8700 9850 8250
+Wire Wire Line
+	9850 8250 10000 8250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1B7F2A
+P 10400 8600
+F 0 "D?" H 10367 8770 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9900 8200 50  0000 L CNN
+F 2 "" V 10250 8650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 10250 8650 50  0001 C CNN
+	1    10400 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 7600 10000 7850
+Wire Wire Line
+	9450 7600 10000 7600
+Wire Wire Line
+	9150 8900 9150 8700
+Wire Wire Line
+	9150 8900 9700 8900
+Wire Wire Line
+	9700 8900 9700 8700
+Wire Wire Line
+	9700 8900 10250 8900
+Wire Wire Line
+	10250 8900 10250 8700
+Connection ~ 9700 8900
+Wire Wire Line
+	9700 8900 9700 9250
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E1B7F39
+P 9600 9450
+F 0 "Q?" H 9806 9496 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 9806 9405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9800 9375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 9600 9450 50  0001 L CNN
+	1    9600 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1B7F3F
+P 9700 9750
+F 0 "#PWR?" H 9700 9500 50  0001 C CNN
+F 1 "GND" H 9705 9577 50  0000 C CNN
+F 2 "" H 9700 9750 50  0001 C CNN
+F 3 "" H 9700 9750 50  0001 C CNN
+	1    9700 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 9650 9700 9750
+Text GLabel 6600 9450 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E1B7F47
+P 6200 8000
+F 0 "U?" H 6200 7511 50  0000 C CNN
+F 1 "AD5683" H 6200 7420 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 7500 7650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 6550 8250 50  0001 C CNN
+	1    6200 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 7600
+Wire Wire Line
+	9450 7600 9450 7850
+Wire Wire Line
+	8150 7800 8150 7700
+Wire Wire Line
+	8900 7600 9450 7600
+Wire Wire Line
+	8900 7600 8900 7850
+Wire Wire Line
+	8150 7700 8150 7600
+Wire Wire Line
+	8150 7600 7950 7600
+Wire Wire Line
+	8150 7600 8900 7600
+Connection ~ 8150 7600
+Connection ~ 8900 7600
+Wire Wire Line
+	9400 9450 6600 9450
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E1D7BC6
+P 12550 7950
+F 0 "U?" H 12550 8417 50  0000 C CNN
+F 1 "LT3080xDD" H 12550 8326 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 12550 7550 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 10830 8720 50  0001 C CNN
+	1    12550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1D7BCC
+P 13250 8200
+F 0 "R?" H 13318 8246 50  0000 L CNN
+F 1 "R_Small_US" H 13318 8155 50  0000 L CNN
+F 2 "" H 13250 8200 50  0001 C CNN
+F 3 "~" H 13250 8200 50  0001 C CNN
+	1    13250 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 8100 13250 8050
+Wire Wire Line
+	13050 7850 13250 7850
+Connection ~ 13250 7850
+Wire Wire Line
+	13050 7950 13250 7950
+Connection ~ 13250 7950
+Wire Wire Line
+	13050 8050 13250 8050
+Connection ~ 13250 8050
+Wire Wire Line
+	13250 8050 13250 7950
+$Comp
+L power:GND #PWR?
+U 1 1 5E1D7BDA
+P 13250 8550
+F 0 "#PWR?" H 13250 8300 50  0001 C CNN
+F 1 "GND" H 13255 8377 50  0000 C CNN
+F 2 "" H 13250 8550 50  0001 C CNN
+F 3 "" H 13250 8550 50  0001 C CNN
+	1    13250 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 8300 13250 8550
+Wire Wire Line
+	11700 8150 12050 8150
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1D7BE2
+P 14550 8100
+F 0 "R?" H 14618 8146 50  0000 L CNN
+F 1 "R_Small_US" H 14618 8055 50  0000 L CNN
+F 2 "" H 14550 8100 50  0001 C CNN
+F 3 "~" H 14550 8100 50  0001 C CNN
+	1    14550 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1D7BE8
+P 14950 8750
+F 0 "D?" H 14918 8914 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14500 8550 50  0000 L CNN
+F 2 "" V 14800 8800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14800 8800 50  0001 C CNN
+	1    14950 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 8200 14550 8400
+Wire Wire Line
+	14800 8400 14550 8400
+Connection ~ 14550 8400
+Wire Wire Line
+	14400 8400 14550 8400
+Wire Wire Line
+	14400 8850 14400 8400
+Wire Wire Line
+	14550 8850 14400 8850
+Wire Wire Line
+	13850 8400 14000 8400
+Wire Wire Line
+	13850 8850 13850 8400
+Wire Wire Line
+	14000 8850 13850 8850
+Connection ~ 14000 8400
+Wire Wire Line
+	14250 8400 14000 8400
+Wire Wire Line
+	14000 8200 14000 8400
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1D7BFA
+P 14400 8750
+F 0 "D?" H 14368 8914 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 13950 8350 50  0000 L CNN
+F 2 "" V 14250 8800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14250 8800 50  0001 C CNN
+	1    14400 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1D7C00
+P 14000 8100
+F 0 "R?" H 14068 8146 50  0000 L CNN
+F 1 "R_Small_US" H 14068 8055 50  0000 L CNN
+F 2 "" H 14000 8100 50  0001 C CNN
+F 3 "~" H 14000 8100 50  0001 C CNN
+	1    14000 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1D7C06
+P 15100 8100
+F 0 "R?" H 15168 8146 50  0000 L CNN
+F 1 "R_Small_US" H 15168 8055 50  0000 L CNN
+F 2 "" H 15100 8100 50  0001 C CNN
+F 3 "~" H 15100 8100 50  0001 C CNN
+	1    15100 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 8200 15100 8400
+Wire Wire Line
+	15350 8400 15100 8400
+Connection ~ 15100 8400
+Wire Wire Line
+	15100 8850 14950 8850
+Wire Wire Line
+	14950 8850 14950 8400
+Wire Wire Line
+	14950 8400 15100 8400
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1D7C12
+P 15500 8750
+F 0 "D?" H 15467 8920 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 15000 8350 50  0000 L CNN
+F 2 "" V 15350 8800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 15350 8800 50  0001 C CNN
+	1    15500 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 7750 15100 8000
+Wire Wire Line
+	14550 7750 15100 7750
+Wire Wire Line
+	14250 9050 14250 8850
+Wire Wire Line
+	14250 9050 14800 9050
+Wire Wire Line
+	14800 9050 14800 8850
+Wire Wire Line
+	14800 9050 15350 9050
+Wire Wire Line
+	15350 9050 15350 8850
+Connection ~ 14800 9050
+Wire Wire Line
+	14800 9050 14800 9400
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E1D7C21
+P 14700 9600
+F 0 "Q?" H 14906 9646 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 14906 9555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14900 9525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 14700 9600 50  0001 L CNN
+	1    14700 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1D7C27
+P 14800 9900
+F 0 "#PWR?" H 14800 9650 50  0001 C CNN
+F 1 "GND" H 14805 9727 50  0000 C CNN
+F 2 "" H 14800 9900 50  0001 C CNN
+F 3 "" H 14800 9900 50  0001 C CNN
+	1    14800 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 9800 14800 9900
+Text GLabel 11700 9600 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E1D7C2F
+P 11300 8150
+F 0 "U?" H 11300 7661 50  0000 C CNN
+F 1 "AD5683" H 11300 7570 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 12600 7800 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 11650 8400 50  0001 C CNN
+	1    11300 8150
+	1    0    0    -1  
+$EndComp
+Connection ~ 14550 7750
+Wire Wire Line
+	14550 7750 14550 8000
+Wire Wire Line
+	13250 7950 13250 7850
+Wire Wire Line
+	14000 7750 14550 7750
+Wire Wire Line
+	14000 7750 14000 8000
+Wire Wire Line
+	13250 7850 13250 7750
+Wire Wire Line
+	13250 7750 13050 7750
+Wire Wire Line
+	13250 7750 14000 7750
+Connection ~ 13250 7750
+Connection ~ 14000 7750
+Wire Wire Line
+	14500 9600 11700 9600
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E1FA597
+P 2500 10800
+F 0 "U?" H 2500 11267 50  0000 C CNN
+F 1 "LT3080xDD" H 2500 11176 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 2500 10400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 780 11570 50  0001 C CNN
+	1    2500 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1FA59D
+P 3200 11050
+F 0 "R?" H 3268 11096 50  0000 L CNN
+F 1 "R_Small_US" H 3268 11005 50  0000 L CNN
+F 2 "" H 3200 11050 50  0001 C CNN
+F 3 "~" H 3200 11050 50  0001 C CNN
+	1    3200 11050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 10950 3200 10900
+Wire Wire Line
+	3000 10700 3200 10700
+Connection ~ 3200 10700
+Wire Wire Line
+	3000 10800 3200 10800
+Connection ~ 3200 10800
+Wire Wire Line
+	3000 10900 3200 10900
+Connection ~ 3200 10900
+Wire Wire Line
+	3200 10900 3200 10800
+$Comp
+L power:GND #PWR?
+U 1 1 5E1FA5AB
+P 3200 11400
+F 0 "#PWR?" H 3200 11150 50  0001 C CNN
+F 1 "GND" H 3205 11227 50  0000 C CNN
+F 2 "" H 3200 11400 50  0001 C CNN
+F 3 "" H 3200 11400 50  0001 C CNN
+	1    3200 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 11150 3200 11400
+Wire Wire Line
+	1650 11000 2000 11000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1FA5B3
+P 4500 10950
+F 0 "R?" H 4568 10996 50  0000 L CNN
+F 1 "R_Small_US" H 4568 10905 50  0000 L CNN
+F 2 "" H 4500 10950 50  0001 C CNN
+F 3 "~" H 4500 10950 50  0001 C CNN
+	1    4500 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1FA5B9
+P 4900 11600
+F 0 "D?" H 4868 11764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4450 11400 50  0000 L CNN
+F 2 "" V 4750 11650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4750 11650 50  0001 C CNN
+	1    4900 11600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 11050 4500 11250
+Wire Wire Line
+	4750 11250 4500 11250
+Connection ~ 4500 11250
+Wire Wire Line
+	4350 11250 4500 11250
+Wire Wire Line
+	4350 11700 4350 11250
+Wire Wire Line
+	4500 11700 4350 11700
+Wire Wire Line
+	3800 11250 3950 11250
+Wire Wire Line
+	3800 11700 3800 11250
+Wire Wire Line
+	3950 11700 3800 11700
+Connection ~ 3950 11250
+Wire Wire Line
+	4200 11250 3950 11250
+Wire Wire Line
+	3950 11050 3950 11250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1FA5CB
+P 4350 11600
+F 0 "D?" H 4318 11764 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 3900 11200 50  0000 L CNN
+F 2 "" V 4200 11650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 4200 11650 50  0001 C CNN
+	1    4350 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1FA5D1
+P 3950 10950
+F 0 "R?" H 4018 10996 50  0000 L CNN
+F 1 "R_Small_US" H 4018 10905 50  0000 L CNN
+F 2 "" H 3950 10950 50  0001 C CNN
+F 3 "~" H 3950 10950 50  0001 C CNN
+	1    3950 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E1FA5D7
+P 5050 10950
+F 0 "R?" H 5118 10996 50  0000 L CNN
+F 1 "R_Small_US" H 5118 10905 50  0000 L CNN
+F 2 "" H 5050 10950 50  0001 C CNN
+F 3 "~" H 5050 10950 50  0001 C CNN
+	1    5050 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 11050 5050 11250
+Wire Wire Line
+	5300 11250 5050 11250
+Connection ~ 5050 11250
+Wire Wire Line
+	5050 11700 4900 11700
+Wire Wire Line
+	4900 11700 4900 11250
+Wire Wire Line
+	4900 11250 5050 11250
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E1FA5E3
+P 5450 11600
+F 0 "D?" H 5417 11770 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 4950 11200 50  0000 L CNN
+F 2 "" V 5300 11650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5300 11650 50  0001 C CNN
+	1    5450 11600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 10600 5050 10850
+Wire Wire Line
+	4500 10600 5050 10600
+Wire Wire Line
+	4200 11900 4200 11700
+Wire Wire Line
+	4200 11900 4750 11900
+Wire Wire Line
+	4750 11900 4750 11700
+Wire Wire Line
+	4750 11900 5300 11900
+Wire Wire Line
+	5300 11900 5300 11700
+Connection ~ 4750 11900
+Wire Wire Line
+	4750 11900 4750 12250
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E1FA5F2
+P 4650 12450
+F 0 "Q?" H 4856 12496 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 4856 12405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 12375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 4650 12450 50  0001 L CNN
+	1    4650 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1FA5F8
+P 4750 12750
+F 0 "#PWR?" H 4750 12500 50  0001 C CNN
+F 1 "GND" H 4755 12577 50  0000 C CNN
+F 2 "" H 4750 12750 50  0001 C CNN
+F 3 "" H 4750 12750 50  0001 C CNN
+	1    4750 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 12650 4750 12750
+Text GLabel 1650 12450 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E1FA600
+P 1250 11000
+F 0 "U?" H 1250 10511 50  0000 C CNN
+F 1 "AD5683" H 1250 10420 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2550 10650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 1600 11250 50  0001 C CNN
+	1    1250 11000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 10600
+Wire Wire Line
+	4500 10600 4500 10850
+Wire Wire Line
+	3200 10800 3200 10700
+Wire Wire Line
+	3950 10600 4500 10600
+Wire Wire Line
+	3950 10600 3950 10850
+Wire Wire Line
+	3200 10700 3200 10600
+Wire Wire Line
+	3200 10600 3000 10600
+Wire Wire Line
+	3200 10600 3950 10600
+Connection ~ 3200 10600
+Connection ~ 3950 10600
+Wire Wire Line
+	4450 12450 1650 12450
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E2264DF
+P 7550 10850
+F 0 "U?" H 7550 11317 50  0000 C CNN
+F 1 "LT3080xDD" H 7550 11226 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 7550 10450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 5830 11620 50  0001 C CNN
+	1    7550 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E2264E5
+P 8250 11100
+F 0 "R?" H 8318 11146 50  0000 L CNN
+F 1 "R_Small_US" H 8318 11055 50  0000 L CNN
+F 2 "" H 8250 11100 50  0001 C CNN
+F 3 "~" H 8250 11100 50  0001 C CNN
+	1    8250 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 11000 8250 10950
+Wire Wire Line
+	8050 10750 8250 10750
+Connection ~ 8250 10750
+Wire Wire Line
+	8050 10850 8250 10850
+Connection ~ 8250 10850
+Wire Wire Line
+	8050 10950 8250 10950
+Connection ~ 8250 10950
+Wire Wire Line
+	8250 10950 8250 10850
+$Comp
+L power:GND #PWR?
+U 1 1 5E2264F3
+P 8250 11450
+F 0 "#PWR?" H 8250 11200 50  0001 C CNN
+F 1 "GND" H 8255 11277 50  0000 C CNN
+F 2 "" H 8250 11450 50  0001 C CNN
+F 3 "" H 8250 11450 50  0001 C CNN
+	1    8250 11450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 11200 8250 11450
+Wire Wire Line
+	6700 11050 7050 11050
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E2264FB
+P 9550 11000
+F 0 "R?" H 9618 11046 50  0000 L CNN
+F 1 "R_Small_US" H 9618 10955 50  0000 L CNN
+F 2 "" H 9550 11000 50  0001 C CNN
+F 3 "~" H 9550 11000 50  0001 C CNN
+	1    9550 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E226501
+P 9950 11650
+F 0 "D?" H 9918 11814 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 9500 11450 50  0000 L CNN
+F 2 "" V 9800 11700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9800 11700 50  0001 C CNN
+	1    9950 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 11100 9550 11300
+Wire Wire Line
+	9800 11300 9550 11300
+Connection ~ 9550 11300
+Wire Wire Line
+	9400 11300 9550 11300
+Wire Wire Line
+	9400 11750 9400 11300
+Wire Wire Line
+	9550 11750 9400 11750
+Wire Wire Line
+	8850 11300 9000 11300
+Wire Wire Line
+	8850 11750 8850 11300
+Wire Wire Line
+	9000 11750 8850 11750
+Connection ~ 9000 11300
+Wire Wire Line
+	9250 11300 9000 11300
+Wire Wire Line
+	9000 11100 9000 11300
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E226513
+P 9400 11650
+F 0 "D?" H 9368 11814 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 8950 11250 50  0000 L CNN
+F 2 "" V 9250 11700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 9250 11700 50  0001 C CNN
+	1    9400 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E226519
+P 9000 11000
+F 0 "R?" H 9068 11046 50  0000 L CNN
+F 1 "R_Small_US" H 9068 10955 50  0000 L CNN
+F 2 "" H 9000 11000 50  0001 C CNN
+F 3 "~" H 9000 11000 50  0001 C CNN
+	1    9000 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E22651F
+P 10100 11000
+F 0 "R?" H 10168 11046 50  0000 L CNN
+F 1 "R_Small_US" H 10168 10955 50  0000 L CNN
+F 2 "" H 10100 11000 50  0001 C CNN
+F 3 "~" H 10100 11000 50  0001 C CNN
+	1    10100 11000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 11100 10100 11300
+Wire Wire Line
+	10350 11300 10100 11300
+Connection ~ 10100 11300
+Wire Wire Line
+	10100 11750 9950 11750
+Wire Wire Line
+	9950 11750 9950 11300
+Wire Wire Line
+	9950 11300 10100 11300
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E22652B
+P 10500 11650
+F 0 "D?" H 10467 11820 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 10000 11250 50  0000 L CNN
+F 2 "" V 10350 11700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 10350 11700 50  0001 C CNN
+	1    10500 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 10650 10100 10900
+Wire Wire Line
+	9550 10650 10100 10650
+Wire Wire Line
+	9250 11950 9250 11750
+Wire Wire Line
+	9250 11950 9800 11950
+Wire Wire Line
+	9800 11950 9800 11750
+Wire Wire Line
+	9800 11950 10350 11950
+Wire Wire Line
+	10350 11950 10350 11750
+Connection ~ 9800 11950
+Wire Wire Line
+	9800 11950 9800 12300
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E22653A
+P 9700 12500
+F 0 "Q?" H 9906 12546 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 9906 12455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 12425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 9700 12500 50  0001 L CNN
+	1    9700 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E226540
+P 9800 12800
+F 0 "#PWR?" H 9800 12550 50  0001 C CNN
+F 1 "GND" H 9805 12627 50  0000 C CNN
+F 2 "" H 9800 12800 50  0001 C CNN
+F 3 "" H 9800 12800 50  0001 C CNN
+	1    9800 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 12700 9800 12800
+Text GLabel 6700 12500 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E226548
+P 6300 11050
+F 0 "U?" H 6300 10561 50  0000 C CNN
+F 1 "AD5683" H 6300 10470 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 7600 10700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 6650 11300 50  0001 C CNN
+	1    6300 11050
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 10650
+Wire Wire Line
+	9550 10650 9550 10900
+Wire Wire Line
+	8250 10850 8250 10750
+Wire Wire Line
+	9000 10650 9550 10650
+Wire Wire Line
+	9000 10650 9000 10900
+Wire Wire Line
+	8250 10750 8250 10650
+Wire Wire Line
+	8250 10650 8050 10650
+Wire Wire Line
+	8250 10650 9000 10650
+Connection ~ 8250 10650
+Connection ~ 9000 10650
+Wire Wire Line
+	9500 12500 6700 12500
+$Comp
+L Regulator_Linear:LT3080xDD U?
+U 1 1 5E25B999
+P 12550 10900
+F 0 "U?" H 12550 11367 50  0000 C CNN
+F 1 "LT3080xDD" H 12550 11276 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 12550 10500 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 10830 11670 50  0001 C CNN
+	1    12550 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E25B99F
+P 13250 11150
+F 0 "R?" H 13318 11196 50  0000 L CNN
+F 1 "R_Small_US" H 13318 11105 50  0000 L CNN
+F 2 "" H 13250 11150 50  0001 C CNN
+F 3 "~" H 13250 11150 50  0001 C CNN
+	1    13250 11150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 11050 13250 11000
+Wire Wire Line
+	13050 10800 13250 10800
+Connection ~ 13250 10800
+Wire Wire Line
+	13050 10900 13250 10900
+Connection ~ 13250 10900
+Wire Wire Line
+	13050 11000 13250 11000
+Connection ~ 13250 11000
+Wire Wire Line
+	13250 11000 13250 10900
+$Comp
+L power:GND #PWR?
+U 1 1 5E25B9AD
+P 13250 11500
+F 0 "#PWR?" H 13250 11250 50  0001 C CNN
+F 1 "GND" H 13255 11327 50  0000 C CNN
+F 2 "" H 13250 11500 50  0001 C CNN
+F 3 "" H 13250 11500 50  0001 C CNN
+	1    13250 11500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 11250 13250 11500
+Wire Wire Line
+	11700 11100 12050 11100
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E25B9B5
+P 14550 11050
+F 0 "R?" H 14618 11096 50  0000 L CNN
+F 1 "R_Small_US" H 14618 11005 50  0000 L CNN
+F 2 "" H 14550 11050 50  0001 C CNN
+F 3 "~" H 14550 11050 50  0001 C CNN
+	1    14550 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E25B9BB
+P 14950 11700
+F 0 "D?" H 14918 11864 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 14500 11500 50  0000 L CNN
+F 2 "" V 14800 11750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14800 11750 50  0001 C CNN
+	1    14950 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 11150 14550 11350
+Wire Wire Line
+	14800 11350 14550 11350
+Connection ~ 14550 11350
+Wire Wire Line
+	14400 11350 14550 11350
+Wire Wire Line
+	14400 11800 14400 11350
+Wire Wire Line
+	14550 11800 14400 11800
+Wire Wire Line
+	13850 11350 14000 11350
+Wire Wire Line
+	13850 11800 13850 11350
+Wire Wire Line
+	14000 11800 13850 11800
+Connection ~ 14000 11350
+Wire Wire Line
+	14250 11350 14000 11350
+Wire Wire Line
+	14000 11150 14000 11350
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E25B9CD
+P 14400 11700
+F 0 "D?" H 14368 11864 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 13950 11300 50  0000 L CNN
+F 2 "" V 14250 11750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 14250 11750 50  0001 C CNN
+	1    14400 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E25B9D3
+P 14000 11050
+F 0 "R?" H 14068 11096 50  0000 L CNN
+F 1 "R_Small_US" H 14068 11005 50  0000 L CNN
+F 2 "" H 14000 11050 50  0001 C CNN
+F 3 "~" H 14000 11050 50  0001 C CNN
+	1    14000 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E25B9D9
+P 15100 11050
+F 0 "R?" H 15168 11096 50  0000 L CNN
+F 1 "R_Small_US" H 15168 11005 50  0000 L CNN
+F 2 "" H 15100 11050 50  0001 C CNN
+F 3 "~" H 15100 11050 50  0001 C CNN
+	1    15100 11050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 11150 15100 11350
+Wire Wire Line
+	15350 11350 15100 11350
+Connection ~ 15100 11350
+Wire Wire Line
+	15100 11800 14950 11800
+Wire Wire Line
+	14950 11800 14950 11350
+Wire Wire Line
+	14950 11350 15100 11350
+$Comp
+L custom:WURTH_150141BS63140 D?
+U 1 1 5E25B9E5
+P 15500 11700
+F 0 "D?" H 15467 11870 50  0000 L CNN
+F 1 "WURTH_150141BS63140" H 15000 11300 50  0000 L CNN
+F 2 "" V 15350 11750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 15350 11750 50  0001 C CNN
+	1    15500 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 10700 15100 10950
+Wire Wire Line
+	14550 10700 15100 10700
+Wire Wire Line
+	14250 12000 14250 11800
+Wire Wire Line
+	14250 12000 14800 12000
+Wire Wire Line
+	14800 12000 14800 11800
+Wire Wire Line
+	14800 12000 15350 12000
+Wire Wire Line
+	15350 12000 15350 11800
+Connection ~ 14800 12000
+Wire Wire Line
+	14800 12000 14800 12350
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5E25B9F4
+P 14700 12550
+F 0 "Q?" H 14906 12596 50  0000 L CNN
+F 1 "NTR3C21NZT1G" H 14906 12505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14900 12475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF" H 14700 12550 50  0001 L CNN
+	1    14700 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E25B9FA
+P 14800 12850
+F 0 "#PWR?" H 14800 12600 50  0001 C CNN
+F 1 "GND" H 14805 12677 50  0000 C CNN
+F 2 "" H 14800 12850 50  0001 C CNN
+F 3 "" H 14800 12850 50  0001 C CNN
+	1    14800 12850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 12750 14800 12850
+Text GLabel 11700 12550 0    50   Input ~ 0
+toSAM32
+$Comp
+L Analog_DAC:AD5693RxRM U?
+U 1 1 5E25BA02
+P 11300 11100
+F 0 "U?" H 11300 10611 50  0000 C CNN
+F 1 "AD5683" H 11300 10520 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 12600 10750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf" H 11650 11350 50  0001 C CNN
+	1    11300 11100
+	1    0    0    -1  
+$EndComp
+Connection ~ 14550 10700
+Wire Wire Line
+	14550 10700 14550 10950
+Wire Wire Line
+	13250 10900 13250 10800
+Wire Wire Line
+	14000 10700 14550 10700
+Wire Wire Line
+	14000 10700 14000 10950
+Wire Wire Line
+	13250 10800 13250 10700
+Wire Wire Line
+	13250 10700 13050 10700
+Wire Wire Line
+	13250 10700 14000 10700
+Connection ~ 13250 10700
+Connection ~ 14000 10700
+Wire Wire Line
+	14500 12550 11700 12550
+$EndSCHEMATC

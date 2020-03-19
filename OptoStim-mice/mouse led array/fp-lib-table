@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "mouse led array")(type KiCad)(uri "${KIPRJMOD}/mouse led array.pretty")(options "")(descr ""))
+)

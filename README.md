@@ -17,7 +17,7 @@ Our approach is to use light-gated protein-protein interaction systems to contro
 
 ### Devices to provide controlled illumination
 
-Controlled illumination sources are required to work in conjuntion with the molecular tools used in the Cui Lab. Simple light sources are readily made using electronic prototyping techniques but there is a desire to gain more precise control of the illumination, so we (folks in lab64) have been helping produce the equipment described here.
+Controllable illumination sources are required to work in conjuntion with the molecular tools used in the Cui Lab. Specifically, a light source with tunable intensity and on/off durations is desired for spatiotemporal control of the activation of these molecular tools in cells. Simple light sources are readily made using electronic prototyping techniques but there is a desire to gain more precise control of the illumination, so we (folks in lab64) have been helping produce the equipment described here.
 
 ### About lab64
 lab64 is an electronics and systems makerspace located in the David Packard Electical Engineering Building at Stanford. Occasionally we have the privilege of helping to build equipment to support some of the exciting research projects here on campus. This is one of those projects!

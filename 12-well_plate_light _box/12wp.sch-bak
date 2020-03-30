@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:12wp-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "12 Well Light Box"
 Date ""
 Rev "0.1"
@@ -13,182 +14,6 @@ Comment2 "350 Jane Stanford Way"
 Comment3 "Electrical Engineering Department"
 Comment4 "lab64 / Stanford University"
 $EndDescr
-$Comp
-L Regulator_Linear:LT3080xDD U?
-U 1 1 5E16FF10
-P 3700 8050
-F 0 "U?" H 3350 8450 50  0000 C CNN
-F 1 "LT3080EDD" H 4000 7650 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 3700 7650 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 1980 8820 50  0001 C CNN
-	1    3700 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E16FF16
-P 4400 8300
-F 0 "R?" H 4468 8346 50  0000 L CNN
-F 1 "3kΩ" H 4468 8255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 8300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 4400 8300 50  0001 C CNN
-	1    4400 8300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 8200 4400 8150
-Wire Wire Line
-	4200 7950 4400 7950
-Connection ~ 4400 7950
-Wire Wire Line
-	4200 8050 4400 8050
-Connection ~ 4400 8050
-Wire Wire Line
-	4200 8150 4400 8150
-Connection ~ 4400 8150
-Wire Wire Line
-	4400 8150 4400 8050
-$Comp
-L power:GND #PWR?
-U 1 1 5E16FF24
-P 4400 8650
-F 0 "#PWR?" H 4400 8400 50  0001 C CNN
-F 1 "GND" H 4405 8477 50  0000 C CNN
-F 2 "" H 4400 8650 50  0001 C CNN
-F 3 "" H 4400 8650 50  0001 C CNN
-	1    4400 8650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 8400 4400 8650
-Wire Wire Line
-	2850 8250 3200 8250
-$Comp
-L 12wp-rescue:WURTH_150141BS63140-custom D?
-U 1 1 5E16FF32
-P 6100 8850
-F 0 "D?" H 6068 9014 50  0000 L CNN
-F 1 "WURTH_150141BS63140" H 5650 8650 50  0000 L CNN
-F 2 "" V 5950 8900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5950 8900 50  0001 C CNN
-	1    6100 8850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 8300 5700 8500
-Wire Wire Line
-	5950 8500 5700 8500
-Connection ~ 5700 8500
-Wire Wire Line
-	5550 8500 5700 8500
-Wire Wire Line
-	5550 8950 5550 8500
-Wire Wire Line
-	5700 8950 5550 8950
-Wire Wire Line
-	5000 8500 5150 8500
-Wire Wire Line
-	5000 8950 5000 8500
-Wire Wire Line
-	5150 8950 5000 8950
-Connection ~ 5150 8500
-Wire Wire Line
-	5400 8500 5150 8500
-Wire Wire Line
-	5150 8300 5150 8500
-$Comp
-L 12wp-rescue:WURTH_150141BS63140-custom D?
-U 1 1 5E16FF44
-P 5550 8850
-F 0 "D?" H 5518 9014 50  0000 L CNN
-F 1 "WURTH_150141BS63140" H 5100 8450 50  0000 L CNN
-F 2 "" V 5400 8900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 5400 8900 50  0001 C CNN
-	1    5550 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E16FF4A
-P 5150 8200
-F 0 "R?" H 5218 8246 50  0000 L CNN
-F 1 "33Ω" H 5218 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 8200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 5150 8200 50  0001 C CNN
-	1    5150 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 8300 6250 8500
-Wire Wire Line
-	6500 8500 6250 8500
-Connection ~ 6250 8500
-Wire Wire Line
-	6250 8950 6100 8950
-Wire Wire Line
-	6100 8950 6100 8500
-Wire Wire Line
-	6100 8500 6250 8500
-$Comp
-L 12wp-rescue:WURTH_150141BS63140-custom D?
-U 1 1 5E16FF5C
-P 6650 8850
-F 0 "D?" H 6617 9020 50  0000 L CNN
-F 1 "WURTH_150141BS63140" H 6150 8450 50  0000 L CNN
-F 2 "" V 6500 8900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150141BS63140-1525277.pdf" V 6500 8900 50  0001 C CNN
-	1    6650 8850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 7850 6250 8100
-Wire Wire Line
-	5700 7850 6250 7850
-Wire Wire Line
-	5400 9150 5400 8950
-Wire Wire Line
-	5400 9150 5950 9150
-Wire Wire Line
-	5950 9150 5950 8950
-Wire Wire Line
-	5950 9150 6500 9150
-Wire Wire Line
-	6500 9150 6500 8950
-Connection ~ 5950 9150
-Wire Wire Line
-	5950 9150 5950 9500
-$Comp
-L power:GND #PWR?
-U 1 1 5E16FF71
-P 5950 10000
-F 0 "#PWR?" H 5950 9750 50  0001 C CNN
-F 1 "GND" H 5955 9827 50  0000 C CNN
-F 2 "" H 5950 10000 50  0001 C CNN
-F 3 "" H 5950 10000 50  0001 C CNN
-	1    5950 10000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 9900 5950 10000
-Connection ~ 5700 7850
-Wire Wire Line
-	5700 7850 5700 8100
-Wire Wire Line
-	4400 8050 4400 7950
-Wire Wire Line
-	5150 7850 5700 7850
-Wire Wire Line
-	5150 7850 5150 8100
-Wire Wire Line
-	4400 7950 4400 7850
-Wire Wire Line
-	4400 7850 4200 7850
-Wire Wire Line
-	4400 7850 4700 7850
-Connection ~ 4400 7850
-Connection ~ 5150 7850
-Wire Wire Line
-	5650 9700 2850 9700
 $Sheet
 S 12000 1500 2000 1750
 U 5E423DD5
@@ -207,124 +32,16 @@ U 5E43DE63
 F0 "Wells9-12" 50
 F1 "file5E43DE62.sch" 50
 $EndSheet
-Text Notes 2950 5550 0    50   ~ 0
+Text Notes 7300 9100 0    50   ~ 0
 33Ω Resistors - ±1%, 1/8W, 0805 Thick Film, ±100ppm/C moisture resistant (Yageo AC0805FR-0733RL or equiv.)
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E48CA46
-P 5700 8200
-F 0 "R?" H 5768 8246 50  0000 L CNN
-F 1 "33Ω" H 5768 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 8200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 5700 8200 50  0001 C CNN
-	1    5700 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E48CEF3
-P 6250 8200
-F 0 "R?" H 6318 8246 50  0000 L CNN
-F 1 "33Ω" H 6318 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 8200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 6250 8200 50  0001 C CNN
-	1    6250 8200
-	1    0    0    -1  
-$EndComp
-Text Notes 2950 5800 0    50   ~ 0
+Text Notes 7300 9350 0    50   ~ 0
 3kΩ Resistors - ±1%, 1/8W, 0805 Thick Film, ±100ppm/C moisture resistant (Yageo AC0805FR-073KL or equiv.)
-Text Notes 4450 7800 0    50   ~ 0
-+5V max Output
-$Comp
-L Device:C_Small C?
-U 1 1 5E48FF6E
-P 4700 8050
-F 0 "C?" H 4792 8096 50  0000 L CNN
-F 1 "10µF" H 4792 8005 50  0000 L CNN
-F 2 "" H 4700 8050 50  0001 C CNN
-F 3 "~" H 4700 8050 50  0001 C CNN
-	1    4700 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E4909E4
-P 4700 8200
-F 0 "#PWR?" H 4700 7950 50  0001 C CNN
-F 1 "GND" H 4800 8100 50  0000 C CNN
-F 2 "" H 4700 8200 50  0001 C CNN
-F 3 "" H 4700 8200 50  0001 C CNN
-	1    4700 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 7950 4700 7850
-Connection ~ 4700 7850
-Wire Wire Line
-	4700 7850 5150 7850
-Wire Wire Line
-	4700 8150 4700 8200
-Text Notes 2950 6050 0    50   ~ 0
+Text Notes 7300 9600 0    50   ~ 0
 10µF Caps - ±10%, 16V X7R Ceramic Chip Cap (Samsung Electro-Mechanics CL31B106KOHNFNE or equiv.)
-$Comp
-L 12wp-rescue:NTR3C21NZ-Transistor_FET Q?
-U 1 1 5E498A18
-P 5850 9700
-F 0 "Q?" H 6056 9746 50  0000 L CNN
-F 1 "NTR3C21NZ" H 6056 9655 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6050 9625 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 5850 9700 50  0001 L CNN
-	1    5850 9700
-	1    0    0    -1  
-$EndComp
-Text Notes 6400 6750 0    50   ~ 0
+Text Notes 7050 10150 0    50   ~ 0
 Vcontrol should be about 1.5 V greater than Vout.
-Text Notes 6500 6600 0    50   ~ 0
+Text Notes 7150 10000 0    50   ~ 0
 Vin should be about 0.5 V greater the Vout
-Wire Wire Line
-	3200 7950 3200 7850
-$Comp
-L power:+6V #PWR?
-U 1 1 5E49FED2
-P 3200 7550
-F 0 "#PWR?" H 3200 7400 50  0001 C CNN
-F 1 "+6V" H 3215 7723 50  0000 C CNN
-F 2 "" H 3200 7550 50  0001 C CNN
-F 3 "" H 3200 7550 50  0001 C CNN
-	1    3200 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 7550 3200 7850
-Connection ~ 3200 7850
-$Comp
-L power:+7.5V #PWR?
-U 1 1 5E4A12AC
-P 2950 7550
-F 0 "#PWR?" H 2950 7400 50  0001 C CNN
-F 1 "+7.5V" H 2965 7723 50  0000 C CNN
-F 2 "" H 2950 7550 50  0001 C CNN
-F 3 "" H 2950 7550 50  0001 C CNN
-	1    2950 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 7550 2950 8150
-Wire Wire Line
-	2950 8150 3200 8150
-$Comp
-L 12wp-rescue:AD5683RACP-Analog_DAC U?
-U 1 1 5E4A8204
-P 2450 8250
-F 0 "U?" H 2150 8650 50  0000 C CNN
-F 1 "AD5683RACP" H 3000 7900 50  0000 C CNN
-F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3750 7900 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf" H 2800 8500 50  0001 C CNN
-	1    2450 8250
-	1    0    0    -1  
-$EndComp
-Text HLabel 2850 9700 0    50   Input ~ 0
-toSAM32
 $Bitmap
 Pos 16222 9574
 Scale 0.290000
@@ -2616,8 +2333,6 @@ Text HLabel 12000 3850 0    100  Input ~ 0
 SDI
 Text HLabel 12000 4450 0    100  Input ~ 0
 SEL_D
-Text HLabel 12000 7050 0    100  Input ~ 0
-Well9
 Text HLabel 12000 7250 0    100  Input ~ 0
 Well10
 Text HLabel 12000 7450 0    100  Input ~ 0
@@ -2632,4 +2347,296 @@ Text HLabel 12000 6150 0    100  Input ~ 0
 SDI
 Text HLabel 12000 6750 0    100  Input ~ 0
 SEL_F
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5E72B422
+P 7300 6900
+F 0 "U?" H 7000 7500 50  0000 C CNN
+F 1 "74HC595" H 7600 6200 50  0000 C CNN
+F 2 "" H 7300 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7300 6900 50  0001 C CNN
+	1    7300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5E72D246
+P 9800 6900
+F 0 "U?" H 9500 7500 50  0000 C CNN
+F 1 "74HC595" H 10100 6200 50  0000 C CNN
+F 2 "" H 9800 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9800 6900 50  0001 C CNN
+	1    9800 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 6500 10400 6500
+Wire Wire Line
+	10200 6600 10400 6600
+Text HLabel 10400 6500 2    50   Input ~ 0
+Well9
+Text HLabel 10400 6600 2    50   Input ~ 0
+Well10
+Text HLabel 10400 6700 2    50   Input ~ 0
+Well11
+Text HLabel 10400 6800 2    50   Input ~ 0
+Well12
+Wire Wire Line
+	10200 6700 10400 6700
+Wire Wire Line
+	10200 6800 10400 6800
+NoConn ~ 10200 6900
+NoConn ~ 10200 7000
+NoConn ~ 10200 7100
+NoConn ~ 10200 7200
+NoConn ~ 10200 7400
+Text Notes 10250 6925 0    50   ~ 0
+n/c
+Text Notes 10250 7025 0    50   ~ 0
+n/c
+Text Notes 10250 7125 0    50   ~ 0
+n/c
+Text Notes 10250 7225 0    50   ~ 0
+n/c
+Text Notes 10250 7425 0    50   ~ 0
+n/c
+Text HLabel 12000 7050 0    100  Input ~ 0
+Well9
+Text HLabel 7900 7200 2    50   Input ~ 0
+Well8
+Text HLabel 7900 7100 2    50   Input ~ 0
+Well7
+Text HLabel 7900 7000 2    50   Input ~ 0
+Well6
+Text HLabel 7900 6900 2    50   Input ~ 0
+Well5
+Text HLabel 7900 6800 2    50   Input ~ 0
+Well4
+Text HLabel 7900 6700 2    50   Input ~ 0
+Well3
+Text HLabel 7900 6600 2    50   Input ~ 0
+Well2
+Text HLabel 7900 6500 2    50   Input ~ 0
+Well1
+Wire Wire Line
+	7700 6500 7900 6500
+Wire Wire Line
+	7700 6600 7900 6600
+Wire Wire Line
+	7700 6700 7900 6700
+Wire Wire Line
+	7700 6800 7900 6800
+Wire Wire Line
+	7700 6900 7900 6900
+Wire Wire Line
+	7700 7000 7900 7000
+Wire Wire Line
+	7700 7100 7900 7100
+Wire Wire Line
+	7700 7200 7900 7200
+$Comp
+L 12wp-rescue:SAM32-SAM32 U?
+U 1 1 5E784C62
+P 7150 2200
+F 0 "U?" H 7150 3539 50  0000 C CNN
+F 1 "SAM32" H 7150 3150 100 0000 C CNB
+F 2 "" H 7650 2350 50  0001 C CNN
+F 3 "" H 7650 2350 50  0001 C CNN
+	1    7150 2200
+	1    0    0    -1  
+$EndComp
+Text Notes 950  950  0    100  Italic 20
+Twelve Well Light Box
+Text Notes 950  1400 0    50   ~ 0
+This is the schematic for a light box that provides independent sources of 450nm illumination\nfor the twelve wells of a “microwell” plate. Each well has an array of LEDs mounted below it and\na diffuser to make the illumination reasonably uniform across the well bottom. The wells are light\nisolated from one another by and O-ring sort of arrangement so that light cross talk is minimized.
+Wire Notes Line style solid rgb(0, 0, 0)
+	900  1000 2700 1000
+Text Notes 950  1750 0    50   ~ 0
+The SAM32 provides programmatic control of the illumination. The number of independently controlled\nlight sources necessitates the use of additional “glue” logic to provide drive capability both in terms\nof “fan out” and number of signal lines.
+Text Notes 950  2500 0    50   ~ 0
+Each ilumination control section has two (2) distinct controls : on / off and intensity. The on / off\ncontrol is effected by a low-side MOSFET switch; the switch is turned on and off by a dedicated output\nfrom one of the 74HC595’s. This is accomplished by writing a serial bit stream from the SAM32 to the\ndaisy chained ‘595’s such that the desired wells are actuated and then simulataneously switching all\ntwelve outputs.  Thus, on / off actuation consists of generating the 12-bit long sequence that specifies\nwhich wells are to be illuminated (digital “1” is “ON” or “illuminated”) and then clocking this sequence\ninto the ‘595’s. Once the bitstream has been loaded, the state is switched by enabling the outputs of\nthe ‘595’s.
+$Sheet
+S 2000 8000 2000 1750
+U 5E73C4B9
+F0 "Sheet: Power" 50
+F1 "file5E73C4B8.sch" 50
+$EndSheet
+Text Notes 2450 8500 0    100  ~ 0
+Power Section
+$Comp
+L power:+5V #PWR?
+U 1 1 5E74CEF4
+P 9800 5700
+AR Path="/5E423DD5/5E74CEF4" Ref="#PWR?"  Part="1" 
+AR Path="/5E74CEF4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9800 5550 50  0001 C CNN
+F 1 "+5V" H 9815 5873 50  0000 C CNN
+F 2 "" H 9800 5700 50  0001 C CNN
+F 3 "" H 9800 5700 50  0001 C CNN
+	1    9800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E74CEFA
+P 9550 5850
+AR Path="/5E423DD5/5E74CEFA" Ref="C?"  Part="1" 
+AR Path="/5E74CEFA" Ref="C?"  Part="1" 
+F 0 "C?" H 9665 5896 50  0000 L CNN
+F 1 "CP1" H 9665 5805 50  0000 L CNN
+F 2 "" H 9550 5850 50  0001 C CNN
+F 3 "~" H 9550 5850 50  0001 C CNN
+	1    9550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E74CF00
+P 10050 5850
+AR Path="/5E423DD5/5E74CF00" Ref="C?"  Part="1" 
+AR Path="/5E74CF00" Ref="C?"  Part="1" 
+F 0 "C?" H 10165 5896 50  0000 L CNN
+F 1 "C" H 10165 5805 50  0000 L CNN
+F 2 "" H 10088 5700 50  0001 C CNN
+F 3 "~" H 10050 5850 50  0001 C CNN
+	1    10050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E74CF06
+P 9550 6000
+AR Path="/5E74CF06" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E74CF06" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9550 5750 50  0001 C CNN
+F 1 "GND" H 9555 5827 50  0000 C CNN
+F 2 "" H 9550 6000 50  0001 C CNN
+F 3 "" H 9550 6000 50  0001 C CNN
+	1    9550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E74CF0C
+P 10050 6000
+AR Path="/5E74CF0C" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E74CF0C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 5750 50  0001 C CNN
+F 1 "GND" H 10055 5827 50  0000 C CNN
+F 2 "" H 10050 6000 50  0001 C CNN
+F 3 "" H 10050 6000 50  0001 C CNN
+	1    10050 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5700 9800 5700
+Wire Wire Line
+	9800 5700 10050 5700
+Connection ~ 9800 5700
+Wire Wire Line
+	9800 6300 9800 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5E74E75D
+P 9800 7600
+AR Path="/5E74E75D" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E74E75D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9800 7350 50  0001 C CNN
+F 1 "GND" H 9805 7427 50  0000 C CNN
+F 2 "" H 9800 7600 50  0001 C CNN
+F 3 "" H 9800 7600 50  0001 C CNN
+	1    9800 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E74EE43
+P 7300 7600
+AR Path="/5E74EE43" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E74EE43" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7300 7350 50  0001 C CNN
+F 1 "GND" H 7305 7427 50  0000 C CNN
+F 2 "" H 7300 7600 50  0001 C CNN
+F 3 "" H 7300 7600 50  0001 C CNN
+	1    7300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E750375
+P 7300 5700
+AR Path="/5E423DD5/5E750375" Ref="#PWR?"  Part="1" 
+AR Path="/5E750375" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7300 5550 50  0001 C CNN
+F 1 "+5V" H 7315 5873 50  0000 C CNN
+F 2 "" H 7300 5700 50  0001 C CNN
+F 3 "" H 7300 5700 50  0001 C CNN
+	1    7300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E75037B
+P 7050 5850
+AR Path="/5E423DD5/5E75037B" Ref="C?"  Part="1" 
+AR Path="/5E75037B" Ref="C?"  Part="1" 
+F 0 "C?" H 7165 5896 50  0000 L CNN
+F 1 "CP1" H 7165 5805 50  0000 L CNN
+F 2 "" H 7050 5850 50  0001 C CNN
+F 3 "~" H 7050 5850 50  0001 C CNN
+	1    7050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E750381
+P 7550 5850
+AR Path="/5E423DD5/5E750381" Ref="C?"  Part="1" 
+AR Path="/5E750381" Ref="C?"  Part="1" 
+F 0 "C?" H 7665 5896 50  0000 L CNN
+F 1 "C" H 7665 5805 50  0000 L CNN
+F 2 "" H 7588 5700 50  0001 C CNN
+F 3 "~" H 7550 5850 50  0001 C CNN
+	1    7550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E750387
+P 7050 6000
+AR Path="/5E750387" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E750387" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7050 5750 50  0001 C CNN
+F 1 "GND" H 7055 5827 50  0000 C CNN
+F 2 "" H 7050 6000 50  0001 C CNN
+F 3 "" H 7050 6000 50  0001 C CNN
+	1    7050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E75038D
+P 7550 6000
+AR Path="/5E75038D" Ref="#PWR?"  Part="1" 
+AR Path="/5E423DD5/5E75038D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7550 5750 50  0001 C CNN
+F 1 "GND" H 7555 5827 50  0000 C CNN
+F 2 "" H 7550 6000 50  0001 C CNN
+F 3 "" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5700 7300 5700
+Wire Wire Line
+	7300 5700 7550 5700
+Connection ~ 7300 5700
+Wire Wire Line
+	7300 6300 7300 5700
+Wire Wire Line
+	8350 7400 8350 6500
+Wire Wire Line
+	7700 7400 8350 7400
+Wire Wire Line
+	8350 6500 9400 6500
 $EndSCHEMATC

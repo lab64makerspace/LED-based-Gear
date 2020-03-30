@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:12wp-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -2435,7 +2435,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 7200 7900 7200
 $Comp
-L SAM32:SAM32 U?
+L 12wp-rescue:SAM32-SAM32 U?
 U 1 1 5E784C62
 P 7150 2200
 F 0 "U?" H 7150 3539 50  0000 C CNN
@@ -2639,4 +2639,8 @@ Wire Wire Line
 	7700 7400 8350 7400
 Wire Wire Line
 	8350 6500 9400 6500
+Text Label 6350 2650 2    50   ~ 0
+OE
+Text Label 6900 7100 2    50   ~ 0
+OE
 $EndSCHEMATC

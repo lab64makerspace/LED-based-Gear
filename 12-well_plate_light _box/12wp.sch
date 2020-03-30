@@ -2464,19 +2464,6 @@ $EndSheet
 Text Notes 2450 8500 0    100  ~ 0
 Power Section
 $Comp
-L power:+5V #PWR?
-U 1 1 5E74CEF4
-P 9800 5700
-AR Path="/5E423DD5/5E74CEF4" Ref="#PWR?"  Part="1" 
-AR Path="/5E74CEF4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9800 5550 50  0001 C CNN
-F 1 "+5V" H 9815 5873 50  0000 C CNN
-F 2 "" H 9800 5700 50  0001 C CNN
-F 3 "" H 9800 5700 50  0001 C CNN
-	1    9800 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C?
 U 1 1 5E74CEFA
 P 9550 5850
@@ -2562,19 +2549,6 @@ F 3 "" H 7300 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5E750375
-P 7300 5700
-AR Path="/5E423DD5/5E750375" Ref="#PWR?"  Part="1" 
-AR Path="/5E750375" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7300 5550 50  0001 C CNN
-F 1 "+5V" H 7315 5873 50  0000 C CNN
-F 2 "" H 7300 5700 50  0001 C CNN
-F 3 "" H 7300 5700 50  0001 C CNN
-	1    7300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C?
 U 1 1 5E75037B
 P 7050 5850
@@ -2639,8 +2613,54 @@ Wire Wire Line
 	7700 7400 8350 7400
 Wire Wire Line
 	8350 6500 9400 6500
-Text Label 6350 2650 2    50   ~ 0
-OE
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E847CA7
+P 7300 5700
+F 0 "#PWR?" H 7300 5550 50  0001 C CNN
+F 1 "+3.3V" H 7315 5873 50  0000 C CNN
+F 2 "" H 7300 5700 50  0001 C CNN
+F 3 "" H 7300 5700 50  0001 C CNN
+	1    7300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E8482FC
+P 9800 5700
+F 0 "#PWR?" H 9800 5550 50  0001 C CNN
+F 1 "+3.3V" H 9815 5873 50  0000 C CNN
+F 2 "" H 9800 5700 50  0001 C CNN
+F 3 "" H 9800 5700 50  0001 C CNN
+	1    9800 5700
+	1    0    0    -1  
+$EndComp
+Text Label 6350 1850 2    50   ~ 0
+SER
+Text Label 6350 1950 2    50   ~ 0
+SRCLK
+Text Label 6900 6700 2    50   ~ 0
+SRCLK
+Text Label 9400 6700 2    50   ~ 0
+SRCLK
+Text Label 6350 2050 2    50   ~ 0
+SRCLR
+Text Label 6900 6800 2    50   ~ 0
+SRCLR
+Text Label 9400 6800 2    50   ~ 0
+SRCLR
 Text Label 6900 7100 2    50   ~ 0
 OE
+Text Label 9400 7100 2    50   ~ 0
+OE
+Text Label 6350 2250 2    50   ~ 0
+OE
+Text Label 6900 6500 2    50   ~ 0
+SER
+Text Label 6900 7000 2    50   ~ 0
+RCLK
+Text Label 9400 7000 2    50   ~ 0
+RCLK
+Text Label 6350 2150 2    50   ~ 0
+RCLK
 $EndSCHEMATC
